@@ -36,6 +36,14 @@ img.logoImageDisclaimer {
   letter-spacing: 3px;
 }
 
+.firstLetter {
+	float: left;
+	width: 0.7em;
+	font-size: 400%;
+	font-family: algerian, courier;
+	line-height: 80%;
+}
+
 
 /* Style the thumbnails */
 .thumbnails {text-align: center;}
