@@ -44,17 +44,8 @@ img.logoImageDisclaimer {
 	line-height: 80%;
 }
 
-
 /* Style the thumbnails */
 .thumbnails {text-align: center;}
-
-.imageShake:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s; 
-
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite; 
-}
 
 .imageShake:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
