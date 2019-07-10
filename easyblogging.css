@@ -48,8 +48,16 @@ img.logoImageDisclaimer {
 .thumbnails {text-align: center;}
 
 .imageShake:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
+  /* Start the shake animation and make the animation on thumbnails */
   animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+.active {
+  /* Start the shake animation and make the animation on nav bar*/
+  animation: shake 10s; 
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite; 
