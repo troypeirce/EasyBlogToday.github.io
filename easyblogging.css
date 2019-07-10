@@ -93,6 +93,10 @@ img.logoImageDisclaimer {
 
 .nav a:hover {background-color: #111111;}
 
+.nav a.active {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
 
 .redWriting{
 	text-align: center;
