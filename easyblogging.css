@@ -61,6 +61,9 @@ img.logoImageDisclaimer {
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite; 
+  
+  /* Round the corners of the active tab */
+  border-radius: 50px 20px;
 }
 
 @keyframes shake {
@@ -99,7 +102,7 @@ img.logoImageDisclaimer {
 	text-decoration: none;
 }
 
-.nav a:hover {background-color: #111111;}
+.nav a:hover {background-color: #111111; border-radius: 50px 20px;}
 
 .nav a.active {
     background-color: #4CAF50;
@@ -190,6 +193,7 @@ h1 {
   background: red;
 }
 
+#af-form-733039012 {border-radius: 50px 20px;}
 #af-form-733039012 .af-body .af-textWrap{width:98%;display:block;float:none;}
 #af-form-733039012 .af-body input.text, #af-form-733039012 .af-body textarea{background-color:#FFFFFF;border-color:#FFFFFF;border-width:5px;border-style:solid;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:18px;font-family:Verdana, sans-serif;}
 #af-form-733039012 .af-body input.text:focus, #af-form-733039012 .af-body textarea:focus{background-color:#FFFAD6;border-color:#030303;border-width:1px;border-style:solid;}
