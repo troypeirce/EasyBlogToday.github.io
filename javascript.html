@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<script src="myScript.js"></script>
+<style>
+header, section, footer, aside, nav, main, article, figure {
+  display: block; 
+}
+
+* {box-sizing: border-box;}
+
+body {
+  background-image:url('images/bodybackgroundimage.jpg');
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+.centerTheImage {
+background-image:url('images/redimage.jpg');
+  text-align: center;
+  background-color: red;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	max-width: 30%;
+	border: 10px solid black;
+}
+</style>
+</head>
+<body>
+<h1>What is it that JavaScript Can Do?</h1>
+
+
+<p id="demo">JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of 
+an image.</p>
+
+<div class="centerTheImage">
+<button onclick="lightOn()">Turn on the light</button>
+
+<img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+<button onclick="lightOff()">Turn off the light</button>
+</div>
+
+</body>
+</html>
