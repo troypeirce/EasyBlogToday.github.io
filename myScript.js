@@ -21,3 +21,4 @@ function lightGone(){
 function lightReturn(){
 	document.getElementById('myImage').style.display='block';
 }
+
