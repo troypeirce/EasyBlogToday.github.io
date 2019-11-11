@@ -24,6 +24,10 @@ Blogs, Ecourses, Newsletters"/>
 
   gtag('config', 'UA-122953474-3');
   gtag('config', 'AW-797721896');
+  
+  var str = document.getElementById("replaceWill").innerHTML;
+  var txt = str.replace(/will/g, "shall");
+  document.getElementbyId("replaceWill").innerHTML = txt;
 </script>
 </head>
 <body>
@@ -57,7 +61,7 @@ Blogs, Ecourses, Newsletters"/>
   </a>
 
 <!-- Product Copy-->
-<p class="floatLeftParagraph"><span class="firstLetter">T</span>he Easy Blogging Newsletter will provide you with proven, effective 
+<p id="replaceWill"class="floatLeftParagraph"><span class="firstLetter">T</span>he Easy Blogging Newsletter will provide you with proven, effective 
 information, tips and advice that will help you start and manage your own 
 successful blog.<br><br>
 
