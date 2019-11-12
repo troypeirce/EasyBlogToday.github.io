@@ -23,7 +23,8 @@ function lightReturn(){
 }
 
 function buttonStyle(){
-	document.getElementById("myButton").style = "color: white; background-color:green";
+	document.getElementById("myButton").style = "color: white;" +
+	"background-color:green";
 }
 
 function buttonRevert(){
@@ -31,7 +32,8 @@ function buttonRevert(){
 }
 
 function buttonStyle1(){
-	document.getElementById("myButton1").style = "color: white; background-color:green";
+	document.getElementById("myButton1").style = "color: white;" + 
+	"background-color:green";
 }
 
 function buttonRevert1(){
