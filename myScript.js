@@ -22,3 +22,18 @@ function lightReturn(){
 	document.getElementById('myImage').style.display='block';
 }
 
+function buttonStyle(){
+	document.getElementById("myButton").style = "color: white; background-color:green";
+}
+
+function buttonRevert(){
+  document.getElementById("myButton").style = "none";
+}
+
+function buttonStyle1(){
+	document.getElementById("myButton1").style = "color: white; background-color:green";
+}
+
+function buttonRevert1(){
+  document.getElementById("myButton1").style = "none";
+}
